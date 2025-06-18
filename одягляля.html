@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #e1f5fe, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #00695c;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      color: white;
+      background: #00897b;
+      padding: 12px 24px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      background: #004d40;
+    }
+    .icon {
+      margin-right: 8px;
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>👨‍💻 Your Name</h1>
+    <p>Full Stack Developer • WordPress • React • Telegram Bots • AI Tools</p>
+    <div class="links">
+      <a href="mailto:your@email.com"><span class="icon">📧</span>Email</a>
+      <a href="https://t.me/+48739046839"><span class="icon">🤖</span>Telegram</a>
+      <a href="https://github.com/yourname"><span class="icon">🐙</span>GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
